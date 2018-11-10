@@ -28,7 +28,7 @@ ${TARGET}: ${ALL_SOURCE}
 build: default
 
 clean: 
-	@rm -rf ${TARGET} && rm -rf ${MKFILE_DIR}pkg && rm -f ${MKFILE_DIR}*.png
+	@rm -rf ${TARGET} && rm -rf ${MKFILE_DIR}pkg && rm -rf ${GOBUILD}data/
 
 ${GLIDE}:
 	if [ -f ${GLIDE_SYS} ]; then \
