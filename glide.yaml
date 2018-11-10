@@ -1,0 +1,18 @@
+package: .
+import:
+- package: github.com/disintegration/imaging
+  version: ^1.5.0
+- package: github.com/golang/freetype
+  subpackages:
+  - truetype
+- package: github.com/lucasb-eyer/go-colorful
+  version: ^1.0.0
+- package: golang.org/x/crypto
+  subpackages:
+  - ssh/terminal
+- package: golang.org/x/image
+  subpackages:
+  - bmp
+  - font
+  - tiff
+  - webp

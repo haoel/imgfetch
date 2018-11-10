@@ -1,0 +1,4 @@
+build/*
+pkg/*
+vendor/*
+src/vendor
