@@ -1,13 +1,13 @@
 # Image Fetch
 
-Image Fetch is a personal programming excise which tries to copy the  **[neofetch](https://github.com/dylanaraps/neofetch)**.
+Image Fetch is a personal programming excise which tries to copy the idea from  **[neofetch](https://github.com/dylanaraps/neofetch)**. 
 
 The major difference are:
 
--  The Image Fetch try to transform an image file to text file with color. 
+-  The Image Fetch try to transform an image file to text file with true color. 
 -  The Image Fetch only print very simple system information - `hostname` `username` and `OS type`
 
-Feel free use all of source. 
+It borrow the code from **[PIXterm](https://github.com/eliukblau/pixterm)**, which is quite geek. I learn a lot from it.
 
 To use this you need to compile it by yourself, it's quite easy
 
